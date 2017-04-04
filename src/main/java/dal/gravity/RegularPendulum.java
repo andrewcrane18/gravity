@@ -13,7 +13,7 @@ public class RegularPendulum extends AbstractPendulum {
      */
     public RegularPendulum (double inLength, double inMass, double inTheta0, 
 		     double inDelta, double inDiss, double inG) {
-	super (inLength, inMass, inTheta0, inG);
+	super (inLength, inMass, inTheta0);
 	delta=inDelta;
 	dissipation = inDiss;
 	lastVel = 0;
